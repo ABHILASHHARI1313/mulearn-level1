@@ -1,0 +1,22 @@
+div {
+	border: 1px solid black;
+	width: 100px;
+	height: 90px;
+	margin: 10px;
+}
+
+.row1 {
+	display: flex;
+	border: none;
+	width: auto;
+}
+
+.row2 {
+	display: flex;
+	border: none;
+	width: auto;
+}
+
+.disabled {
+	border: none;
+}

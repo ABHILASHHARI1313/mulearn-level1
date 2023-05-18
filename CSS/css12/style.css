@@ -1,0 +1,17 @@
+.first {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.first h1 {
+	margin: auto;
+}
+
+.second {
+	display: flex;
+	margin-bottom: 50px;
+}
+
+.second h1 {
+	margin: auto;
+}

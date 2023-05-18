@@ -1,0 +1,14 @@
+#center {
+	text-align: center;
+	width: 700px;
+}
+
+#left {
+	text-align: left;
+	width: 700px;
+}
+
+#right {
+	text-align: right;
+	width: 700px;
+}

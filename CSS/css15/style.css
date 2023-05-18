@@ -1,0 +1,50 @@
+body {
+	background: url("banner.jpg");
+	background-size: cover;
+	margin: 0px;
+}
+
+.form {
+	background-color: white;
+	height: 90vh;
+	width: 28vw;
+	position: absolute;
+	top: 8%;
+	left: 35%;
+	border-radius: 5px;
+}
+
+h1 {
+	text-align: center;
+}
+
+strong {
+	margin-left: 5px;
+}
+
+hr {
+	background-color: lightgray;
+	border: none;
+	margin: 2px;
+	height: 2px;
+}
+
+input {
+	background-color: lightgray;
+	border: 1px solid lightgrey;
+	border-radius: 30px;
+	width: 95%;
+	height: 7%;
+	margin-left: 5px;
+	margin-bottom: 10px;
+}
+
+button {
+	width: 95%;
+	margin: 10px;
+	height: 6%;
+	background-color: #373B3E;
+	border: solid #373B3E;
+	color: white;
+	border-radius: 5px;
+}

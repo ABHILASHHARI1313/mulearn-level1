@@ -1,0 +1,6 @@
+div {
+	background:linear-gradient(90deg, Red, Orange, Yellow, Green, Blue, Indigo,violet);
+	width: 400px;
+	height: 40px;
+	text-align: center;
+}

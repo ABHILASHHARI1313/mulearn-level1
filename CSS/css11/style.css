@@ -1,0 +1,13 @@
+#text-1 {
+	border: solid red;
+	width: 50%;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+#text-2 {
+	border: solid red;
+	width: 50%;
+	padding: 10px;
+	border-radius: 40px 20px;
+}
