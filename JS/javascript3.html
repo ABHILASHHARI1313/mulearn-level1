@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <div class="hi">
+    <label for="firstnumber">Principal Amount</label>
+    <input type="text" id="one">
+    </div>
+    <div class="hai">
+    <label for="secondnumber">Interest Rate</label>
+    <input type="text" id="two">
+    </div>
+    <div class="hei">
+        <label for="thirdnumber">Tenure</label>
+        <input type="text" id="three">
+        </div>
+    <div class="hello">
+    <button onclick="display()">Click Here</button>
+    </div>
+    <div class="hey">
+    <label for="result">The EMI is:</label>
+    <h1 id="demo"></h1>
+    </div>
+    <script>
+        function display(){
+                var P = parseFloat(document.getElementById("one").value)
+                var R = parseFloat(document.getElementById("two").value)
+                var N = parseFloat(document.getElementById("three").value)
+                var result= P*R*Math.pow(1+R,N)/(Math.pow(1+R,N)-1)
+                document.getElementById("demo").innerHTML = result
+            }
+    </script>
+    
+</body>
+</html>

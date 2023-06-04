@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <div class="hi">
+    <label for="firstnumber">First Number:</label>
+    <input type="text" id="one">
+    </div>
+    <div class="hai">
+    <label for="secondnumber">Second Number:</label>
+    <input type="text" id="two">
+    </div>
+    <div class="hello">
+    <button onclick="display()">Click Here</button>
+    </div>
+    <div class="hey">
+    <label for="result">The sum is:</label>
+    <h1 id="demo"></h1>
+    </div>
+    <script>
+        function display(){
+                var firstnum = parseFloat(document.getElementById("one").value)
+                var secondnum = parseFloat(document.getElementById("two").value)
+                var result= firstnum + secondnum
+                document.getElementById("demo").innerHTML = result
+            }
+    </script>
+    
+</body>
+</html>
